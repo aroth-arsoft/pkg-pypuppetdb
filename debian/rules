@@ -8,7 +8,10 @@ export PYBUILD_NAME=pypuppetdb
 override_dh_installchangelogs:
 	dh_installchangelogs CHANGELOG.rst
 
+override_dh_clean:
+	dh_clean
+	-rm -rf pypuppetdb.egg-info
+	-rm -rf PKG-INFO
+
 override_dh_auto_test:
-	PYBUILD_SYSTEM=custom \
-		PYBUILD_TEST_ARGS="{interpreter} -m pytest -m unit" \
-		dh_auto_test
+	true

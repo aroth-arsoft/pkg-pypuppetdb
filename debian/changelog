@@ -1,3 +1,9 @@
+pypuppetdb (0.2.2-0.1~aroth1) xenial; urgency=medium
+
+  * new upstream version 0.2.2
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Thu, 12 May 2016 08:07:04 +0200
+
 pypuppetdb (0.1.1+git080614-1) unstable; urgency=low
 
   * Initial release. (Closes: #756009)
