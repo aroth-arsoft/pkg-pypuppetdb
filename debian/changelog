@@ -1,0 +1,5 @@
+pypuppetdb (0.1.1+git080614-1) unstable; urgency=low
+
+  * Initial release. (Closes: #756009)
+
+ -- Jonas Genannt <genannt@debian.org>  Thu, 04 Jun 2015 12:43:48 +0200

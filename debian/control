@@ -1,0 +1,44 @@
+Source: pypuppetdb
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Jonas Genannt <genannt@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all (>= 2.6.6-3~),
+               python-setuptools,
+               python3-all,
+               python3-setuptools,
+               python-requests,
+               python3-requests,
+               python-tox,
+               python-pytest,
+               python3-pytest,
+               python-mock,
+               python3-mock,
+               python-httpretty,
+               python3-httpretty,
+               python-coverage,
+               python3-coverage
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Homepage: https://github.com/nedap/pypuppetdb
+Vcs-Git: git://anonscm.debian.org/python-modules/packages/pypuppetdb.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=python-modules/packages/pypuppetdb.git
+
+Package: python-pypuppetdb
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: interface to the PuppetDB REST API
+ This library provides a Python interface to the PuppetDB REST API.
+ It's a thin wrapper around the PuppetDB REST API providing some
+ convinience functions and objects to request and hold data from PuppetDB.
+
+Package: python3-pypuppetdb
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: interface to the PuppetDB REST API (Python 3)
+ This library provides a Python3 interface to the PuppetDB REST API.
+ It's a thin wrapper around the PuppetDB REST API providing some
+ convinience functions and objects to request and hold data from PuppetDB.
