@@ -1,0 +1,10 @@
+/.pybuild/
+/pypuppetdb.egg-info/
+/pypuppetdb/
+/CHANGELOG.rst
+/LICENSE
+/MANIFEST.in
+/README.rst
+/requirements.txt
+/setup.cfg
+/setup.py
